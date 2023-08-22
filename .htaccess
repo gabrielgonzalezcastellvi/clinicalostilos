@@ -1,0 +1,16 @@
+
+#redirecciones 301 paginas viejas
+Redirect 301 /institucion/ https://clinicalostilos.com/clinica
+Redirect 301 /galeria/ https://clinicalostilos.com/clinica#galeria-clinica
+Redirect 301 /articulos/ https://clinicalostilos.com/
+
+
+#eliminar extension php
+Options +MultiViews
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+#evitar visualizacion de archivos de una carpeta
+Options -Indexes
