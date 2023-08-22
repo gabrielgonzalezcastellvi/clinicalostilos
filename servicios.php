@@ -106,7 +106,6 @@ $url = 'servicios';
                 <div class="flex-section-parent services">
                     <?php foreach ($actividades as $act) { ?>
 
-
                         <div class="flip-card hidden animate__animated">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front">
@@ -119,7 +118,6 @@ $url = 'servicios';
                         </div>
 
                     <?php } ?>
-
 
                 </div>
             </div>

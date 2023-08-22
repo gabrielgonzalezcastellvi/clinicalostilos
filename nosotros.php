@@ -77,18 +77,9 @@ $url = 'nosotros';
                 </div>
             <?php } ?>
 
-
     </main>
 
-
-
     </div>
-
-
-
-
-
-
 
     <?php
     include 'secciones/rrss.php';

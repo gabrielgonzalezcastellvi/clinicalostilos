@@ -50,7 +50,7 @@ if (isset($_POST['send'])) {
             //header("Location: gracias");
             $ok .= "Tu mensaje se envió exitosamente.";
         } else {
-            $notSended .= "¡Ups! 😫 No pudimos enviar tu mensaje, por favor inténtalo nevamente o inicia un chat de Whatsapp";
+            $notSended .= "¡Ups! 😢 No pudimos enviar tu mensaje, por favor inténtalo nevamente o inicia un chat de Whatsapp";
         }
     } catch (Exception $e) {
         $notSended .= "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";

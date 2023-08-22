@@ -33,12 +33,6 @@ $url = 'galeria';
 
     </main>
 
-
-
-
-
-
-
     <?php
     include 'secciones/rrss.php';
     include 'secciones/dev.php';

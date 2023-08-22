@@ -89,15 +89,12 @@ $trayectoria = date("Y") - 1991;
         </div>
     </section>
 
-
-
     <section>
         <div class="serv-highligh relative">
             <p>Brindamos atención para <b>problemas psicológicos y psiquiátricos</b> como depresión, trastornos de ansiedad, trastorno bipolar, esquizofrenia y otras psicosis, trastornos de personalidad, problemas de sueño y perfeccionismo, entre otros.</p>
 
         </div>
     </section>
-
 
     <section id="convenios">
         <h2 class="center-txt">Convenios</h2>
@@ -107,8 +104,6 @@ $trayectoria = date("Y") - 1991;
         </a>
     </section>
 
-
-    
     <?php
     include 'secciones/rrss.php';
     include 'secciones/dev.php';

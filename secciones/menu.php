@@ -9,10 +9,10 @@
     <div id="navOptions" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
-            <a href="<?php echo ROOT . 'nosotros'; ?>" class="effect-1">Clínica</a>
-            <a href="<?php echo ROOT . 'equipo'; ?>" class="effect-1">Equipo</a>
-            <a href="<?php echo ROOT . 'servicios'; ?>" class="effect-1">Servicios</a>
-            <a href="<?php echo ROOT . 'contacto'; ?>" class="effect-1">Contacto</a>
+            <a href="<?php echo ROOT . 'nosotros.php'; ?>" class="effect-1">Clínica</a>
+            <a href="<?php echo ROOT . 'equipo.php'; ?>" class="effect-1">Equipo</a>
+            <a href="<?php echo ROOT . 'servicios.php'; ?>" class="effect-1">Servicios</a>
+            <a href="<?php echo ROOT . 'contacto.php'; ?>" class="effect-1">Contacto</a>
         </div>
     </div>
     <span class="cta cta-bg" onclick="openNav()"><i class="bi bi-list"></i> Menú</span> <!--&#9776;-->

@@ -26,26 +26,12 @@
     }
 </style>
 
-<!--<div class="header"></div>-->
 <div class="hidden animate__animated box">
 
 </div>
 
 <script>
-    /*$(function() {
-        var header = $(".header");
-        
-        $(window).scroll(function() {
-            var scroll = $(window).scrollTop();
-
-            if (scroll >= 500) {
-                header.removeClass('header').addClass("header-alt");
-            } else {
-                header.removeClass("header-alt").addClass('header');
-            }
-        });
-    });
-    */
+   
     $(function() {
         var header = $(".hidden");
 

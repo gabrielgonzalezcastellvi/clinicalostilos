@@ -50,14 +50,3 @@ header('Content-Type:text/html;charset=utf-8');
   <link rel="stylesheet" href="<?php echo ROOT . 'carousel/css/owl.club.min.css'; ?>">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-
-  <!-- Global site tag (gtag.js) - Google Analytics
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78968578-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-78968578-1');
-</script>-->

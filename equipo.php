@@ -12,7 +12,6 @@ $url = 'equipo';
 <meta name="twitter:title" content="<?php echo BRAND . ' | ' . $title; ?>" />
 <meta name="twitter:description" content="<?php echo DESCRIPCION; ?>" />
 
-
 <style>
 
 </style>
@@ -73,12 +72,6 @@ $url = 'equipo';
         </section>
 
     </main>
-
-
-
-
-
-
 
     <?php
     include 'secciones/rrss.php';
